@@ -378,7 +378,7 @@ return {
         everforest.setup({
             background = "hard",
             transparent_background_level = 0,
-            italics = true,
+            italics = false,
             disable_italic_comments = false,
             inlay_hints_background = "dimmed",
             on_highlights = function(hl, _)

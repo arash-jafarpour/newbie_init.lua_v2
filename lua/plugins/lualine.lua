@@ -75,23 +75,43 @@ return {
             -- 	darkblue = "#666666",
             -- }
 
-            -- Gruvbox Material
+            -- -- Gruvbox Material
+            -- local colors = {
+            --     bg = "#191B1C", -- base
+            --     bg2 = "#292929", -- surface0
+            --     fg = "#ebdbb2", -- text
+            --     red = "#ea6962", -- red
+            --     green = "#a9b665", -- green
+            --     blue = "#7daea3", -- blue
+            --     lightblue = "#89b482", -- sky
+            --     yellow = "#d8a657", -- yellow
+            --     pink = "#d3869b", -- pink
+            --     violet = "#d3869b", -- mauve
+            --     cyan = "#89b482", -- teal (closest to cyan)
+            --     magenta = "#d3869b", -- pink (used as magenta)
+            --     white = "#ebdbb2", -- text
+            --     orange = "#e78a4e", -- peach
+            --     darkblue = "#666666", -- surface1
+            -- }
+
+            -- Everforest Dark
             local colors = {
-                bg = "#191B1C", -- base
-                bg2 = "#292929", -- surface0
-                fg = "#ebdbb2", -- text
-                red = "#ea6962", -- red
-                green = "#a9b665", -- green
-                blue = "#7daea3", -- blue
-                lightblue = "#89b482", -- sky
-                yellow = "#d8a657", -- yellow
-                pink = "#d3869b", -- pink
-                violet = "#d3869b", -- mauve
-                cyan = "#89b482", -- teal (closest to cyan)
-                magenta = "#d3869b", -- pink (used as magenta)
-                white = "#ebdbb2", -- text
-                orange = "#e78a4e", -- peach
-                darkblue = "#666666", -- surface1
+                bg = "#191b1c", -- bg0 (base)
+                bg2 = "#374145", -- bg2 (surface0)
+                fg = "#d3c6aa", -- fg (text)
+                red = "#e67e80", -- red
+                green = "#a7c080", -- green
+                blue = "#7fbbb3", -- blue
+                lightblue = "#83c092", -- aqua (sky)
+                yellow = "#dbbc7f", -- yellow
+                pink = "#d699b6", -- purple/pink
+                violet = "#d699b6", -- purple/mauve
+                cyan = "#83c092", -- aqua/teal (closest to cyan)
+                magenta = "#d699b6", -- purple/pink (as magenta)
+                white = "#d3c6aa", -- fg (text)
+                orange = "#7fbbb3", -- orange/peach
+                -- orange = "#e69875",
+                darkblue = "#666666", -- bg1 (surface1)
             }
 
             -- -- VSCode

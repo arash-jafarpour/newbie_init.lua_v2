@@ -385,7 +385,7 @@ return {
                 hl["@string.special.symbol.ruby"] = { link = "@field" }
             end,
             colours_override = function(palette)
-                palette.bg_visual = "#384b55"
+                palette.bg_visual = "#374145"
                 -- bg
                 palette.bg0 = "#1e2326"
                 -- cursorline

@@ -392,6 +392,9 @@ return {
                 palette.bg1 = "#272e33"
                 -- float-bg
                 palette.bg2 = "#1e2326"
+
+                -- things like: => > < = ->
+                palette.orange = "#d3c6aa"
             end,
         })
         everforest.load()

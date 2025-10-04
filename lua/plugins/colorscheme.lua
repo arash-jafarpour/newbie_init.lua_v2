@@ -394,10 +394,26 @@ return {
                 palette.bg2 = "#1e2326"
 
                 -- things like: => > < = ->
-                palette.orange = "#d3c6aa"
+                -- palette.orange = "#d3c6aa"
+
+                palette.fg = "#ebdbb2" -- mocha.text
+                palette.red = "#ea6962" -- mocha.rosewater
+                palette.orange = "#e78a4e" -- mocha.peach
+                palette.yellow = "#d8a657" -- mocha.yellow
+                palette.green = "#a9b665" -- mocha.green
+                palette.aqua = "#89b482" -- mocha.teal
+                palette.blue = "#7daea3" -- mocha.blue
+                palette.purple = "#d3869b" -- mocha.mauve
+
+                -- greys / subtle text
+                palette.grey0 = "#d5c4a1" -- mocha.subtext1
+                palette.grey1 = "#bdae93" -- mocha.subtext0
+                palette.grey2 = "#a89984" -- mocha.overlay2
             end,
         })
         everforest.load()
+        vim.api.nvim_set_hl(0, "TelescopeMatching", { fg = "#7daea3", bold = true })
+        vim.api.nvim_set_hl(0, "TelescopeSelection", { bg = "#272e33" })
     end,
 }
 
